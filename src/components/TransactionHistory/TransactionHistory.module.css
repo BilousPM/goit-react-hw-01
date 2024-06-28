@@ -1,0 +1,30 @@
+table {
+  border-spacing: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+th {
+  background: #bcebdd;
+  color: white;
+  text-shadow: 0 1px 1px #2d2020;
+  padding: 10px 110px;
+}
+th,
+td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+  /* &:hover {
+    transform: scale(1.2); */
+  /* } */
+}
+
+td {
+  padding: 10px 20px;
+  background: #f8e391;
+}
+
+tr:hover {
+  transform: scale(1.2);
+}
