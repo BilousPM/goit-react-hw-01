@@ -15,9 +15,6 @@ td {
   border-style: solid;
   border-width: 0 1px 1px 0;
   border-color: white;
-  /* &:hover {
-    transform: scale(1.2); */
-  /* } */
 }
 
 td {
@@ -25,6 +22,10 @@ td {
   background: #b6d66a;
 }
 
-tr:hover {
-  transform: scale(1.2);
+tr {
+  transition: transform 500ms cubic-bezier(0.23, 1, 0.32, 1);
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }
