@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import FriendListItem from '../FrendListIttem/FrendListItem';
 import s from './FriendList.module.css/';
 
@@ -14,10 +13,6 @@ const FriendList = ({ frends }) => {
       })}
     </ul>
   );
-};
-
-FriendList.propTypes = {
-  frends: PropTypes.array,
 };
 
 export default FriendList;

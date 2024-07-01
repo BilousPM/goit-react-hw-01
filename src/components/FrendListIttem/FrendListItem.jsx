@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import s from './FrendListItem.module.css';
 
 const FrendListItem = ({ userData }) => {
@@ -11,16 +10,6 @@ const FrendListItem = ({ userData }) => {
       </p>
     </div>
   );
-};
-
-FrendListItem.propTypes = {
-  userdata: PropTypes.arrayOf(
-    PropTypes.exact({
-      avatar: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      isOnline: PropTypes.bool.isRequired,
-    })
-  ),
 };
 
 export default FrendListItem;
